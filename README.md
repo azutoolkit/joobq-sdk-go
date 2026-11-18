@@ -4,7 +4,7 @@ A thin worker and producer client for the JoobQ SDK gateway of a self-hosted Joo
 workflow blueprints, run their tasks with retries, heartbeats and graceful shutdown, and enqueue jobs (up to 500 in one
 call with `EnqueueMany`) or start workflows. With JoobQ Pro on the server: batches with completion callbacks (`CreateBatch`,
 `GetBatch`) and a shared sliding-window rate limit (`RateLimit`).
-JoobQUI version 0.1.1; an SDK talks to a server of its own version or later.
+JoobQUI version 0.7.2; an SDK talks to a server of its own version or later.
 
 - Requirements: Go 1.22 or newer; standard library only.
 - Install: `go get github.com/azutoolkit/joobq-sdk-go`.
